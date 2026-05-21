@@ -1,0 +1,65 @@
+.auth-card-lg {
+  max-width: 520px;
+}
+
+.auth-icon-accent {
+  background: linear-gradient(135deg, var(--accent), #a855f7);
+}
+
+.auth-link-accent {
+  color: var(--accent);
+}
+
+.auth-link-accent:hover {
+  color: var(--accent-dark);
+}
+
+.input-status-icon {
+  padding-right: 44px;
+}
+
+.status-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.status-valid {
+  color: var(--success);
+}
+
+.status-invalid {
+  color: var(--error);
+}
+
+.field-error {
+  font-size: 0.8rem;
+  color: var(--error);
+  margin-top: 2px;
+  animation: slideDown 0.2s ease;
+}
+
+.auth-link {
+  color: var(--green);
+  font-weight: var(--fw-semi-bold);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.auth-link:hover {
+  color: var(--green-hover);
+  text-decoration: underline;
+}
+
+.field-hint {
+  font-size: var(--fs-small);
+  color: var(--light-gray-hover);
+  margin-top: 2px;
+}
+
+.form-group {
+  margin-bottom: 2px;
+}
